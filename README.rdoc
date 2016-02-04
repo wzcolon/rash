@@ -12,7 +12,7 @@ You will now be able to access those keys through underscored key names (camelCa
 
 == Usage
 
-  @rash = Hashie::Rash.new({
+  @rash = Hashie::Hash::Rash.new({
     "varOne" => 1,
     "two" => 2,
     :three => 3,
